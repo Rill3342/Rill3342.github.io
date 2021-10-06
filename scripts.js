@@ -5,7 +5,7 @@ var progressbar = document.getElementById("btnprog");
 
 button.onclick = function() {
 	if(clicks == 0) {
-		setTimeout(timeout, testTime * 1000);
+		setTimeout(timeout, testTime * 100);
 		progressbar.style.width = '100%';
 	}
 	clicks ++;
