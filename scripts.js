@@ -24,6 +24,6 @@ function timeout() {
 function resetbutton() {
 	button.disabled = false;
 	button.style.cursor = 'crosshair';
-	progressbar.style.transition = 'width 10s linear';
+	progressbar.style.transition = 'width 1s linear';
 	clicks = 0;
 }
