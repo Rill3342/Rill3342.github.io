@@ -14,7 +14,7 @@ button.onclick = function() {
 
 function timeout() {
 	button.disabled = true;
-	button.innerText = clicks / testTime + ' CPS';
+	button.innerText = clicks  + ' CPS';
 	button.style.cursor = 'wait';
 	setTimeout(resetbutton, 3000);
 	progressbar.style.transition = 'width 3s';
